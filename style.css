@@ -1,5 +1,6 @@
 :root {
-    --dark: #333;
+    --dark: #555;
+    --darker: #333;
     --grey: #aaa;
     --light: #ddd;
     --green: rgb(39, 123, 45);
@@ -43,4 +44,19 @@ input, button {
     border: none;
     outline: none;
     background: none;
+}
+
+.add-task-input {
+    flex: 1 1 0%;
+    background-color: var(--darker);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: var(--light);
+    font-size: 1.24rem;
+}
+
+.add-task-input::placeholder {
+    color: var(--grey);
+
 }
